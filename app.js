@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var db = require('./db');
 var user = require('./controllers/usercontroller');
-var game = require('./controllers/gamecontroller')
+var game = require('./controllers/gamecontroller');
 
 
 db.sync();
